@@ -27,10 +27,10 @@ const questions = [
     message: "Give me a brief description of your project",
   },
   {
-    type: "list",
+    type: "checkbox",
     name: "license",
     message: "What kind of license does your project use?",
-    choices: ["MIT", "Apache License 2.0", "Mozilla Public License 2.0"],
+    choices: ["MIT", "Apache 2.0", "Mozilla 2.0"],
   },
   {
     type: "input",

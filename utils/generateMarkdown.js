@@ -1,45 +1,61 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license != "None") {
+  if (license == "MIT") {
     return `## License
-    This project is licensed with ${license}.`;
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
-  if (license) return "";
+  if (license == "Apache 2.0") {
+    return `## License
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+  }
+  if (license == "Mozilla 2.0") {
+    return `## License
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+  }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license != "None") {
-    return `## License
-    This project is licensed with ${license}.`;
-  }
-  return "";
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  // creating my markdown with template strings
+  if (license == "MIT") {
+    return `## License
+  (https://opensource.org/licenses/MIT)`;
+  }
+  if (license == "Apache 2.0") {
+    return `## License
+  (https://opensource.org/licenses/Apache-2.0)`;
+  }
+  if (license == "Mozilla 2.0") {
+    return `## License
+  (https://opensource.org/licenses/MPL-2.0)`;
+  }
+  if (license !== "none") return "";
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
+
   ## Description 
   ${data.description}
+ 
 
   ## Installation Instructions
   ${data.Installation}
+
+ 
 
   ## Table of Contents
   -[Description](#description)
 
   -[Installation](#Installation)
-
-  -[Usage](#Usage)
 
   -[Contribution](#contribution)
 
@@ -50,23 +66,21 @@ function generateMarkdown(data) {
   -[Questions](#questions)
   
 
-
-  ## Usage 
-  
-
   ## Contribution
   ${data.contribution}
 
   ## Tests
   ${data.test}
 
-  ## Badge
-  ${data.license}
+  
+  ${renderLicenseSection(data.license)}
 
   ## Questions
-  ${data.Github}
+  github.com/${data.Github}
+
   ${data.email}
 
+  
 `;
 }
 

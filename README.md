@@ -1,41 +1,45 @@
 # Readme
 
-  ## Description 
-  f
+## License
 
-  ## Installation Instructions
-  
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-  ## Table of Contents
-  -[Description](#description)
+## Description
 
-  -[Installation](#Installation)
+readme generator
 
-  -[Usage](#Usage)
+## Installation Instructions
 
-  -[Contribution](#contribution)
+npm i
 
-  -[Tests](#test)
+## Table of Contents
 
-  -[Badge](#license)
+-[Description](#description)
 
-  -[Questions](#questions)
-  
+-[Installation](#Installation)
 
+-[Contribution](#contribution)
 
-  ## Usage 
-  
+-[Tests](#test)
 
-  ## Contribution
-  email
+-[Badge](#license)
 
-  ## Tests
-  npm run test
+-[Questions](#questions)
 
-  ## Badge
-  MIT
+## Contribution
 
-  ## Questions
-  friel2021
-  fr
+email
 
+## Tests
+
+npm run test
+
+## License
+
+(https://opensource.org/licenses/Apache-2.0)
+
+## Questions
+
+github.com/friel2021
+
+friel2009@gmail.com
