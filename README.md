@@ -1,3 +1,4 @@
+![readme_screenshot](https://user-images.githubusercontent.com/87154134/130311223-41821b12-7c23-40aa-86da-fa7a32956615.PNG)
 # ReadmeGenerator
 
 ## Description
@@ -16,4 +17,4 @@ Click [here](https://drive.google.com/file/d/1gkDK0wx3F0ep0z93pYrUuNgXxVaYC1_j/v
 
 Output
 
-![readme screenshot](./assets/images/readme_screenshot.png)
+![readme_screenshot](https://user-images.githubusercontent.com/87154134/130311223-41821b12-7c23-40aa-86da-fa7a32956615.PNG)
