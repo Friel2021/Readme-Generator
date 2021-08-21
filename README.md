@@ -14,4 +14,5 @@ The application uses the following technologies: Inquirer, Node.Js.
 
 Click [here](https://drive.google.com/file/d/1gkDK0wx3F0ep0z93pYrUuNgXxVaYC1_j/view) for a video demonstration
 
+Output
 ![readme screenshot](./assets/images/readme_screenshot.png)
