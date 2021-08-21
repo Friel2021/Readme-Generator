@@ -1,45 +1,17 @@
-# Readme
-
-## License
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# ReadmeGenerator
 
 ## Description
 
-readme generator
+The following application is a command line application which will create a "README" file based on user input.
 
-## Installation Instructions
+In order to use the application enter "node index.js" in your command line.
 
-npm i
+## Technology
 
-## Table of Contents
+The application uses the following technologies: Inquirer, Node.Js.
 
--[Description](#description)
+## Functionality
 
--[Installation](#Installation)
+Click [here](https://drive.google.com/file/d/1gkDK0wx3F0ep0z93pYrUuNgXxVaYC1_j/view) for a video demonstration
 
--[Contribution](#contribution)
-
--[Tests](#test)
-
--[Badge](#license)
-
--[Questions](#questions)
-
-## Contribution
-
-email
-
-## Tests
-
-npm run test
-
-## License
-
-(https://opensource.org/licenses/Apache-2.0)
-
-## Questions
-
-github.com/friel2021
-
-friel2009@gmail.com
+![readme screenshot](./assets/images/readme_screenshot.png)

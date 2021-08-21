@@ -13,18 +13,31 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your github username?",
-    name: "Github",
-  },
-  {
-    type: "input",
-    message: "What is your email address?",
-    name: "email",
-  },
-  {
-    type: "input",
     name: "description",
     message: "Give me a brief description of your project",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message:
+      "What do you need to install in order for your application to work?",
+    default: "npm i",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "How do you use your application?",
+  },
+  {
+    type: "input",
+    name: "contribution",
+    message: "How does a user contribute to your project?",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "What commands should be run for tests?",
+    default: "npm run test",
   },
   {
     type: "checkbox",
@@ -34,25 +47,18 @@ const questions = [
   },
   {
     type: "input",
-    name: "Installation",
-    message: "What commands should we run for dependencies?",
-    default: "npm i",
+    message: "What is your github username?",
+    name: "Github",
   },
   {
     type: "input",
-    name: "test",
-    message: "What commands should be run for tests?",
-    default: "npm run test",
-  },
-  {
-    type: "input",
-    name: "contribution",
-    message: "How does a user contribute to this project?",
+    message: "What is your email address?",
+    name: "email",
   },
 ];
 
 function writeToFile(filename, data) {
-  fs.writeFile("README.md", data, (err) => {
+  fs.writeFile("GENERATEDREADME.md", data, (err) => {
     err ? console.log(err) : console.log("File was written!!!");
   });
 }
@@ -60,7 +66,7 @@ function writeToFile(filename, data) {
 // Function call to initialize app
 function init() {
   return inquirer.prompt(questions).then((data) => {
-    writeToFile("README.md", generateMarkdown(data));
+    writeToFile("GENERATEDREADME.md", generateMarkdown(data));
   });
 }
 

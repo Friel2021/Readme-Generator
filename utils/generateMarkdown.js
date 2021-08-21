@@ -1,42 +1,34 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == "MIT") {
-    return `## License
+    return `
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
   if (license == "Apache 2.0") {
-    return `## License
+    return `
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   }
   if (license == "Mozilla 2.0") {
-    return `## License
+    return `
   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license == "MIT") {
-    return `## License
-  (https://opensource.org/licenses/MIT)`;
+    return `## License Resources
+  https://opensource.org/licenses/MIT`;
   }
   if (license == "Apache 2.0") {
-    return `## License
-  (https://opensource.org/licenses/Apache-2.0)`;
+    return `## License Resources
+  https://opensource.org/licenses/Apache-2.0`;
   }
   if (license == "Mozilla 2.0") {
-    return `## License
-  (https://opensource.org/licenses/MPL-2.0)`;
+    return `## License Resources
+  https://opensource.org/licenses/MPL-2.0`;
   }
   if (license !== "none") return "";
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -50,18 +42,21 @@ function generateMarkdown(data) {
   ## Installation Instructions
   ${data.Installation}
 
+  ## Usage
  
 
   ## Table of Contents
   -[Description](#description)
 
-  -[Installation](#Installation)
+  -[Installation](#installation)
+
+  -[Usage](#usage)
 
   -[Contribution](#contribution)
 
   -[Tests](#test)
 
-  -[Badge](#license)
+  -[License Resources](#license)
 
   -[Questions](#questions)
   
@@ -74,6 +69,7 @@ function generateMarkdown(data) {
 
   
   ${renderLicenseSection(data.license)}
+
 
   ## Questions
   github.com/${data.Github}
