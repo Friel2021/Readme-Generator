@@ -1,4 +1,3 @@
-![readme_screenshot](https://user-images.githubusercontent.com/87154134/130311223-41821b12-7c23-40aa-86da-fa7a32956615.PNG)
 # ReadmeGenerator
 
 ## Description
