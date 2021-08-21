@@ -16,4 +16,4 @@ Click [here](https://drive.google.com/file/d/1gkDK0wx3F0ep0z93pYrUuNgXxVaYC1_j/v
 
 Output
 
-![readme screenshot](./assets/readme_screenshot.png)
+![readme screenshot](./assets/images/readme_screenshot.png)
