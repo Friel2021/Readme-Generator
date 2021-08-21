@@ -1,47 +1,49 @@
-# Read me generator
+# Lorem Ipsum
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Description
 
-readme
+  ## Description 
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+ 
 
-## Installation Instructions
+  ## Installation Instructions
+  npm i
 
-undefined
+  ## Usage
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
 
-## Usage
+  ## Table of Contents
+  -[Description](#description)
 
-## Table of Contents
+  -[Installation](#installation)
 
--[Description](#description)
+  -[Usage](#usage)
 
--[Installation](#installation)
+  -[Contribution](#contribution)
 
--[Usage](#usage)
+  -[Tests](#test)
 
--[Contribution](#contribution)
+  -[License Resources](#license)
 
--[Tests](#test)
+  -[Questions](#questions)
+  
 
--[License Resources](#license)
+  ## Contribution
+  Email 
 
--[Questions](#questions)
+  ## Tests
+  npm run test
 
-## Contribution
+  
+  ## License Resources
+  https://opensource.org/licenses/MIT
 
-email me
 
-## Tests
+  ## Questions
+  github.com/Lorem ipsum
 
-npm run test
+  Sed ut perspiciatis
 
-## License Resources
-
-https://opensource.org/licenses/MIT
-
-## Questions
-
-github.com/friel2021
-
-friel2009
+  

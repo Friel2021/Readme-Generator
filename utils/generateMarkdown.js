@@ -40,10 +40,10 @@ function generateMarkdown(data) {
  
 
   ## Installation Instructions
-  ${data.Installation}
+  ${data.installation}
 
   ## Usage
- 
+  ${data.usage}
 
   ## Table of Contents
   -[Description](#description)
