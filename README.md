@@ -12,7 +12,7 @@ The application uses the following technologies: Inquirer, Node.Js.
 
 ## Functionality
 
-Click [here](https://drive.google.com/file/d/1gkDK0wx3F0ep0z93pYrUuNgXxVaYC1_j/view) for a video demonstration
+Click [here]https://drive.google.com/file/d/1QUk0tfaDtPVwiPynufRjh5TiuBWSEBPL/view?usp=sharing) for a video demonstration
 
 Output
 
